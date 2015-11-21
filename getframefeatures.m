@@ -1,6 +1,7 @@
 function [newfeatvector] = getframefeatures( x,windowSize,hopSize,fs )
 %UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%   This function extracts features which are to be extracted framewise,and
+%   generates a framewise feature vector that is later aggregated.
 %   featvector=[spectral_centroid, zcr, spectral_crest,spectral_flux,max_env] ;
 
 windowStart = 1 ;
